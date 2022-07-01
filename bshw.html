@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./hwcss/hw.css">
+    <title>NotTwitter</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="sidebar col-2 offset-1">
+                <i style="color: #209BEC; font-size:x-large" class="bi bi-twitter"></i>
+                <div class="side">
+                    <button type="button" class="btn btn-"><i class="bi bi-house-heart"></i>Home</button>
+                    <button type="button" class="btn btn-"><i class="bi bi-hash"></i> Explore</button>
+                    <button type="button" class="btn btn-"><i class="bi bi-bell-slash-fill"></i> Notification</button>
+                    <button type="button" class="btn btn-"><i class="bi bi-envelope-open-heart"></i> Messages</button>
+                    <button type="button" class="btn btn-"><i class="bi bi-bookmark-heart-fill"></i> Bookmarks</button>
+                    <button type="button" class="btn btn-"><i class="bi bi-list-ul"></i> Lists</button>
+                    <button type="button" class="btn btn-"><i class="bi bi-person-circle"></i> Profile</button>
+                    <button type="button" class="btn btn-"><i class="bi bi-three-dots"></i> More</button>
+                    <button type="button" class="btn btn-bg-primary">Tweet</button>
+
+
+                </div>
+
+                <div class="container d-flex justify-content-center">
+                    <div class="card p-3 prof">
+                        <div class="profhead">
+                            <img src="./hwimages/sarah.jpg" class="profilem">
+                            <div class="profbody">
+                                <h5 class="mt-2 mb-0">Sarah Stodder</h5>
+                                <div class="d-flex flex-row justify-content-between align-text-center">
+                                    <small class="text-muted">@SunshineStodder</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="content col-4">
+                <h1>Home</h1>
+                <div>
+                    <div class="container d-flex justify-content-center">
+                        <div class="card p-3" style="width: 800px;">
+                            <div class="profhead">
+                                <img src="./hwimages/sarah.jpg" class="profilem">
+                                <div class="profbody">
+                                    <textarea class="form-control" placeholder="What's Happening?"
+                                        id="textarea"></textarea>
+                                    <label for="textarea">What's happening?</label>
+                                    <div class="botlinks">
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: lightskyblue !important; background-color:white!important"><i
+                                                class="bi bi-chat-dots"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color:darkgreen !important; background-color:white!important"><i
+                                                class="bi bi-arrow-repeat"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: red !important; background-color:white!important"><i
+                                                class="bi bi-heart-fill"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: darkblue !important; background-color:white!important"><i
+                                                class="bi bi-share-fill"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container d-flex justify-content-center">
+                    <div class="card p-3" style="width:400px;">
+
+                        <img class="card-img-top" src="./hwimages/sweetbeans.jfif" style="height: 250px;"
+                            alt="Coffee tattoo">
+                        <div class="card-body">
+                            <img src="./hwimages/jack.jpg" class="profilem">
+                            <div class="profbody">
+                                <h5 class="mt-2 mb-0">Jacksepticeye<svg style="fill:#209BEC; height:20px"
+                                        viewBox="0 0 24 24">
+                                        <g>
+                                            <path
+                                                d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z">
+                                            </path>
+                                        </g>
+                                    </svg></h5>
+                                <div class="d-flex flex-column justify-content-between align-text-center">
+                                    <small class="text-muted">@jacksepticeye</small>
+                                    <h5>Sweet Beans.</h5>
+                                    <div class="botlinks">
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: lightskyblue !important; background-color:white!important"><i
+                                                class="bi bi-chat-dots"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color:darkgreen !important; background-color:white!important"><i
+                                                class="bi bi-arrow-repeat"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: red !important; background-color:white!important"><i
+                                                class="bi bi-heart-fill"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: darkblue !important; background-color:white!important"><i
+                                                class="bi bi-share-fill"></i></a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="container d-flex justify-content-center">
+                    <div class="card p-3" style="width:400px;">
+                        <div class="card-body">
+                            <img src="./hwimages/monster.jpg" class="profilem">
+                            <div class="profbody">
+                                <h5 class="mt-2 mb-0">Monster Energy<svg style="fill:#209BEC; height:20px"
+                                        viewBox="0 0 24 24">
+                                        <g>
+                                            <path
+                                                d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z">
+                                            </path>
+                                        </g>
+                                    </svg></h5>
+                                <div class="d-flex flex-column justify-content-between align-text-center">
+                                    <small class="text-muted">@Monster</small>
+                                    <h5>they're a 10 but they'd rather drink that red bs.</h5>
+                                    <div class="botlinks">
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: lightskyblue !important; background-color:white!important"><i
+                                                class="bi bi-chat-dots"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color:darkgreen !important; background-color:white!important"><i
+                                                class="bi bi-arrow-repeat"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: red !important; background-color:white!important"><i
+                                                class="bi bi-heart-fill"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: darkblue !important; background-color:white!important"><i
+                                                class="bi bi-share-fill"></i></a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container d-flex justify-content-center">
+                    <div class="card p-3" style="width:400px;">
+
+                        <img class="card-img-top" src="./hwimages/inside.jfif" style="height: 250px;"
+                            alt="Coffee tattoo">
+                        <div class="card-body">
+                            <img src="./hwimages/itsboyo.jpg" class="profilem">
+                            <div class="profbody">
+                                <h5 class="mt-2 mb-0">Bo Burnham<svg style="fill:#209BEC; height:20px"
+                                        viewBox="0 0 24 24">
+                                        <g>
+                                            <path
+                                                d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z">
+                                            </path>
+                                        </g>
+                                    </svg></h5>
+                                <div class="d-flex flex-column justify-content-between align-text-center">
+                                    <small class="text-muted">@boburnham</small>
+                                    <h5> Daddy made you more content</h5>
+                                    <div class="botlinks">
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: lightskyblue !important; background-color:white!important"><i
+                                                class="bi bi-chat-dots"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color:darkgreen !important; background-color:white!important"><i
+                                                class="bi bi-arrow-repeat"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: red !important; background-color:white!important"><i
+                                                class="bi bi-heart-fill"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: darkblue !important; background-color:white!important"><i
+                                                class="bi bi-share-fill"></i></a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container d-flex justify-content-center">
+                    <div class="card p-3" style="width:400px;">
+                        <div class="card-body">
+                            <img src="./hwimages/kev.jpg" class="profilem">
+                            <div class="profbody">
+                                <h5 class="mt-2 mb-0">Kevin<svg style="fill:#209BEC; height:20px" viewBox="0 0 24 24">
+                                        <g>
+                                            <path
+                                                d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z">
+                                            </path>
+                                        </g>
+                                    </svg></h5>
+                                <div class="d-flex flex-column justify-content-between align-text-center">
+                                    <small class="text-muted">@callmekevin</small>
+                                    <h5>I recorded tonight's video where I tried to be the worst politician in Bitlife a
+                                        few days ago.
+
+                                        I was intentionally evil and I still think I didn't come close given what's
+                                        going on in America right now. I'm sorry my American friends, I am shocked that
+                                        it actually happened</h5>
+                                    <div class="botlinks">
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: lightskyblue !important; background-color:white!important"><i
+                                                class="bi bi-chat-dots"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color:darkgreen !important; background-color:white!important"><i
+                                                class="bi bi-arrow-repeat"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: red !important; background-color:white!important"><i
+                                                class="bi bi-heart-fill"></i></a>
+                                        <a href="#" class="btn btn-xsm-light"
+                                            style="color: darkblue !important; background-color:white!important"><i
+                                                class="bi bi-share-fill"></i></a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="search col-4">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+
+                            <span class="badge text-bg-light" style="text-align: center;"><i
+                                    class="bi bi-search"></i></span> <input class="form-control me-2" type="search"
+                                placeholder="Search" aria-label="Search">
+
+                        </form>
+                    </div>
+                </nav>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Whats happening?</h4>
+                        <p class="card-text">Sarah is crying a lot, but its alright cause it seems like she has the
+                            concept down! now i am just putting content, speaking of content have you listend to that
+                            song its pretty great, listen I know the page isnt the best but one day I can come back and
+                            make it 100% better right? </p>
+                        <a href="#" class="card-link">buy tissues for sarah</a>
+                        <a href="#" class="card-link">maybe ice-cream?</a>>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">people to follow</h4>
+                            <img src="./hwimages/jack.jpg" class="profilem" alt="..."><span>
+                                <h6>Definently not Jacksepticeye</h6>
+                            </span>
+                            <p class="card-text">@NotJacksepticeye</p>
+                            <img src="./hwimages/kev.jpg" class="profilem" alt="..."><span>
+                                <h6>Could be Kevin?</h6>
+                            </span>
+                            <p class="card-text">@MynamesNotKevin</p>
+                            <img src="./hwimages/itsboyo.jpg" class="profilem" alt="..."><span>
+                                <h6>Is that.. Bo?</h6>
+                            </span>
+                            <p class="card-text">It'sBoYo.</p>
+                        </div>
+
+
+                    </div>
+</body>
+
+</html>
